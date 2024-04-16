@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+}
+
+.header .logo {
+    display: flex;
+    margin: 0 auto;
+    max-width: 140px;
+}
+
+.header .title-group {
+    padding-left: 15px;
+    color: #fff;
+}
+
+.header .title-group i {
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.mat-toolbar {
+    background: #F59E0B !important;
+}
