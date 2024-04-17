@@ -16,3 +16,10 @@
   .mat-mdc-card {
     margin-top: 50px;
   }
+
+  img {
+        width: 150px; /* Defina a largura da imagem */
+        height: 150px; /* Defina a altura da imagem */
+        border-radius: 50%; /* Torna a imagem redonda */
+        overflow: hidden;
+  }

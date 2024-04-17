@@ -49,7 +49,7 @@ export class CatalogoComponent implements OnInit {
      link: 'https://drive.google.com/file/d/16dKCZ327-S0qRqqpd39VqyFjfzFqrMPi/view?usp=sharing', imagem: 'linha eco.png' },
 
     { nome: 'COPA LIGHT - LIGHT CUP - CHAMPAGNE', preco: 'Copos Long Drinks', atacado: 'Liso',
-     link: 'https://drive.google.com/file/d/1sc3nbwssdH8wP1YrmzbVENsm9002iRsW/view?usp=drive_link', imagem: 'LONG DRINK.png' },
+     link: 'https://drive.google.com/file/d/1sc3nbwssdH8wP1YrmzbVENsm9002iRsW/view?usp=drive_link', imagem: 'taça light.png' },
 
     { nome: 'LONG DRINK', preco: 'Copos Long Drinks', atacado: 'Liso',
      link: 'https://drive.google.com/file/d/1FS58JZl_Qy5pgewwDHsrqaOnQD7fxHTt/view?usp=sharing', imagem: 'long.png' },
@@ -69,11 +69,8 @@ export class CatalogoComponent implements OnInit {
     { nome: 'SPACE', preco: 'Copo', atacado: 'Liso',
      link: 'https://drive.google.com/file/d/1Xi_c1ozN0-yRkUnviaf--K3GanLsqboM/view?usp=drive_link', imagem: 'space.png' },
 
-    { nome: 'TACA CHANDON', preco: 'Taça', atacado: 'Liso',
-     link: 'https://drive.google.com/file/d/113Htf7AmbpPxLKsUTBgwTAXVF1uLfONg/view?usp=sharing', imagem: 'chandon.png' },
-
-    { nome: 'TACA LIGHT', preco: 'Taça', atacado: 'Liso',
-     link: '', imagem: 'taça light.png' },
+    { nome: 'COPA CHANDON - CHANDON CUP', preco: 'Taça', atacado: 'Liso',
+     link: 'https://drive.google.com/file/d/14JV6jVlAMsIrVLL8xLxBnIfiMI-jR4WP/view?usp=drive_link', imagem: 'chandon.png' },
 
     { nome: 'COPA DE VINO - GLASS OF WINE', preco: 'Taça', atacado: 'Liso',
      link: 'https://drive.google.com/file/d/1udzo26vKT5qRDI3t78tlP3DR3rI0IlTR/view?usp=sharing', imagem: 'taça vinho.png' },

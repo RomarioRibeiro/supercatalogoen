@@ -1,32 +1,39 @@
 <mat-card class="card-adjust home mat-elevantion-z4">
-  <mat-card-title class="title ">Bem-vindo ao Super Catalogo!
+  <mat-card-title class="title ">Bienvenido a Super Copo!
   </mat-card-title>
-  <img class="v-middle" mat-card-lg-image
-          src="assets/img/coracao.svg">
-  <mat-card-subtitle class="subtitle">Seja bem-vindo à nossa página!
-          Estamos imensamente felizes por sua presença aqui.
-          Para explorar os nossos produtos, basta clicar na aba
-          "Catálogos" no menu lateral.
-          Lá, você encontrará uma ampla gama de opções para facilitar a
-          visualização e descoberta de tudo o que temos a oferecer.
-          Aproveite ao máximo a sua visita e não hesite em entrar em
-          contato conosco caso necessite de qualquer assistência. Estamos
-          à disposição para ajudá-lo</mat-card-subtitle>
+  <!--   <img class="v-middle" mat-card-lg-image
+          src="assets/img/coracao.svg"> -->
+  <mat-card-subtitle class="subtitle">Bienvenidos a nuestra página! Estamos inmensamente felices por su presencia aquí.
+    Para explorar nuestros productos, simplemente haga clic en la pestaña "Productos" en el menú lateral.
+    Allí encontrarás una amplia gama de opciones para que sea más fácil visualizar y descubrir todo lo que tenemos para
+    ofrecerte. Aprovecha al máximo tu visita y no dudes en contactarnos si necesitas ayuda.
+    Estamos disponibles para ayudarte!</mat-card-subtitle>
 
-          <div class=" grid flex justify-content-center">
+    <div class="divisor"></div>
 
-                    <img src="assets/images/Logo - original.png" alt="" width="100">
-                    <div class="flex justify-content-center">
-                      <p-carousel styleClass="custom-carousel" [value]="images"  [numVisible]="3" [numScroll]="3" [circular]="true" [responsiveOptions]="responsiveOptions" [autoplayInterval]="5000">
-                        <ng-template pTemplate="header">
-                        </ng-template>
-                        <ng-template let-image pTemplate="item">
-                          <img [src]="'assets/images/' + image" alt="Slide {{image}}">
-                        </ng-template>
-                      </p-carousel>
-            
-                    </div>
-          </div>
+    <mat-card-title class="title ">Welcome to Super Copo!</mat-card-title>
+
+    <mat-card-subtitle class="subtitle">Welcome to our page! We are immensely happy for your presence here. 
+      To explore our products, simply click on the "Product" tab in the side menu. 
+      There, you will find a wide range of options to make it easier to view and discover everything we have to offer. 
+      Make the most of your visit and don't hesitate to contact us if you require any assistance. 
+      We are available to help you!</mat-card-subtitle>
+
+  <div class=" grid flex justify-content-center">
+
+    <img src="assets/images/Logo - original.png" alt="" width="100">
+    <div class="flex justify-content-center">
+      <p-carousel styleClass="custom-carousel" [value]="images" [numVisible]="3" [numScroll]="3" [circular]="true"
+        [responsiveOptions]="responsiveOptions" [autoplayInterval]="5000">
+        <ng-template pTemplate="header">
+        </ng-template>
+        <ng-template let-image pTemplate="item">
+          <img [src]="'assets/images/' + image" alt="Slide {{image}}">
+        </ng-template>
+      </p-carousel>
+
+    </div>
+  </div>
 </mat-card>
 
 <!-- <div class="card-adjust">
