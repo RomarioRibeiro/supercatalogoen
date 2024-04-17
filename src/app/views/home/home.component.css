@@ -1,0 +1,46 @@
+.home {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+.home .title {
+    font-size: 1.8rem;
+    margin: 10px;
+}
+
+.home .subtitle {
+    max-width: 1080px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.home img {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* carousel.component.css */
+p-carousel  img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 200px; /* Ajuste conforme necessário */
+    display: block;
+    margin: 0 auto; /* Centralizar a imagem */
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 7px 11px 5px 0px rgba(0,0,0,0.75);
+  }
+
+
+  .catalogo-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  

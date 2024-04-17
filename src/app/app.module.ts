@@ -20,13 +20,17 @@ import { CarouselModule } from 'primeng/carousel';
 import { DataViewModule } from 'primeng/dataview';
 import { ButtonModule } from 'primeng/button';
 import { CatalogoComponent } from './views/catalogo/catalogo.component';
+import { HomeComponent } from './views/home/home.component';
+import { ContatoComponent } from './views/contato/contato.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     NavComponent,
-    CatalogoComponent
+    CatalogoComponent,
+    HomeComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,66 @@
+<mat-card class="card-adjust home mat-elevantion-z4">
+  <mat-card-title class="title ">Bem-vindo ao Super Catalogo!
+  </mat-card-title>
+  <img class="v-middle" mat-card-lg-image
+          src="assets/img/coracao.svg">
+  <mat-card-subtitle class="subtitle">Seja bem-vindo à nossa página!
+          Estamos imensamente felizes por sua presença aqui.
+          Para explorar os nossos produtos, basta clicar na aba
+          "Catálogos" no menu lateral.
+          Lá, você encontrará uma ampla gama de opções para facilitar a
+          visualização e descoberta de tudo o que temos a oferecer.
+          Aproveite ao máximo a sua visita e não hesite em entrar em
+          contato conosco caso necessite de qualquer assistência. Estamos
+          à disposição para ajudá-lo</mat-card-subtitle>
+
+          <div class=" grid flex justify-content-center">
+
+                    <img src="assets/images/Logo - original.png" alt="" width="100">
+                    <div class="flex justify-content-center">
+                      <p-carousel styleClass="custom-carousel" [value]="images"  [numVisible]="3" [numScroll]="3" [circular]="true" [responsiveOptions]="responsiveOptions" [autoplayInterval]="5000">
+                        <ng-template pTemplate="header">
+                        </ng-template>
+                        <ng-template let-image pTemplate="item">
+                          <img [src]="'assets/images/' + image" alt="Slide {{image}}">
+                        </ng-template>
+                      </p-carousel>
+            
+                    </div>
+          </div>
+</mat-card>
+
+<!-- <div class="card-adjust">
+<p-dataView #dv [value]="catalogos">
+<ng-template let-catalogo pTemplate="listItem">
+  <div class="col-12">
+    <div class="catalogo-item flex flex-column xl:flex-row xl:align-items-start p-4 gap-4">
+        <img class="w-9 sm:w-16rem xl:w-10rem shadow-2 block xl:block mx-auto border-round" src="assets/images/_0000_VERMELHO-LEITOSO.png"  alt="" width="100">
+        <div class="flex flex-column sm:flex-row justify-content-between align-items-center xl:align-items-start flex-1 gap-4">
+              <div class="flex flex-column align-items-center sm:align-items-start gap-3">
+                  <div class="text-2xl font-bold text-900">{{ catalogo.nome }}</div>
+                  <div class="flex align-items-center gap-3">
+                      <span class="flex align-items-center gap-2">
+                          <i class="pi pi-tag"></i>
+                          <span class="font-semibold">{{ catalogo.preco }}</span>
+                      </span>
+                  </div>
+              </div>
+              <div class="flex sm:flex-column align-items-center sm:align-items-end gap-3 sm:gap-2">
+                  <span class="text-2xl font-semibold">{{ catalogo.atacado }}</span>
+                  <ng-container *ngIf="isExternalLink(catalogo.link); else internalLink">
+                    <a [href]="catalogo.link" target="_blank">
+                      <p-button icon="pi pi-user" [rounded]="true" severity="info"></p-button>
+                    </a>
+                  </ng-container>
+                  <ng-template #internalLink>
+                    <a [routerLink]="catalogo.link">
+                      <p-button icon="pi pi-user" [rounded]="true" severity="info"></p-button>
+                    </a>
+                  </ng-template>
+              </div>
+          </div>
+      </div>
+  </div>
+</ng-template>
+</p-dataView>
+</div> -->
