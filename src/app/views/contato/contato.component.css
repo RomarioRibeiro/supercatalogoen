@@ -23,3 +23,20 @@
         border-radius: 50%; /* Torna a imagem redonda */
         overflow: hidden;
   }
+
+  .link-whatsapp {
+    text-decoration: none;
+    position: relative;
+    color: #000;
+}
+
+/* Estilo para o pseudo-elemento que será a linha sobre o texto */
+.link-whatsapp:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px; /* Ajuste a altura da linha conforme necessário */
+    background-color: black; /* Cor da linha */
+}
