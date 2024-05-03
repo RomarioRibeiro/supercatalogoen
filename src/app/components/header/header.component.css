@@ -8,7 +8,7 @@
 .header .logo {
     display: flex;
     margin: 0 auto;
-    max-width: 140px;
+    max-width: 110px;
 }
 
 .header .title-group {
